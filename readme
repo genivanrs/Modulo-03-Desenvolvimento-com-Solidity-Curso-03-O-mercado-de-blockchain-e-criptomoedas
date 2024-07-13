@@ -1,0 +1,29 @@
+# PokeDIO
+Desafio do Bootcamp da DIO ministrado pelo especialista Cassiano Peres
+
+## Descrição do Projeto
+
+PokeDIO é um contrato inteligente ERC-721 que simula um jogo de batalhas entre Pokémons. Os Pokémons podem ser criados, visualizados e usados em batalhas para aumentar seus níveis.
+
+## Estrutura do Projeto
+
+- `contracts/`: Contém os contratos inteligentes Solidity.
+- `migrations/`: Contém os scripts de migração do Truffle.
+- `test/`: Contém os arquivos de teste para os contratos.
+- `truffle-config.js`: Configuração do Truffle.
+- `README.md`: Documentação do projeto.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js e npm
+- Truffle: `npm install -g truffle`
+- Ganache: `npm install -g ganache-cli`
+
+### Passos para Execução
+
+1. Clone o repositório:
+
+git clone https://github.com/seu-usuario/PokeDIO.git
+cd PokeDIO
